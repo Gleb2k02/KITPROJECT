@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-family: 'Lobster', cursive;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/91/89/6157e129611d49a.jpg);
+    padding: 100px 0;
+    background-size: cover;
+}
+ h3 {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     
+ }
+.container {
+    max-width: 100%;
+    min-height: 1000px;
+    viewport-fit: auto;  
+    margin: 0 auto;
+    background:  url(https://noisefiction.u/wp-content/uploads/2020/07/rebrawl-71.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    height: 250px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #060620;
+    background-size: contain;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGXIZNOAnafVVoT1IeStO-YuYxZLNMc0RhkKZeznRiS4wneKv-AYOQdz0CoHW7_k4q0I&usqp=CAU)
+    no-repeat center center / cover;
+    color: aliceblue;
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: url(https://hotelier.pro/images/2017-07-07-TW-33.jpg)
+    no-repeat center center / cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.nav ul {
+    display: flex;
+    background-color: #FFE4B5;
+    margin: 10px, 0;  
+    list-style: none;
+    
+}
+.nav li a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #2F4F4F;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid #4B0082;
+    text-align: center;
+    transition: background .3s ease;
+}
+.nav li a:hover {
+    background: #ddb9ff;  }
+
+.content-wrapper {
+    
+    margin-top: 5px;
+    margin-left: 5px;
+    display:flex;
+    
+}
+.стр1 { 
+    padding-top: 10px;
+}
+.стр2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+
+}
+.стр3 {
+    padding: 50px;
+}
+.стр4 {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.стр5 {
+    color: azure;
+    padding-top: 80px;
+}
+.content {
+    
+    width: 100%;
+    text-align: justify;
+    height: 100%;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.left {
+    text-align: right;
+}
+.sidebar {
+    padding: 10px;
+    padding-left: 0px;
+    width: 20%;
+    margin-left: 10px;
+    
+}
+.skills li {
+    padding: 10px 0px;
+    transition: transform .5s ease ;
+    cursor: pointer;
+    list-style: none;
+    
+}
+.skills li:hover {
+    transform: translateX(10px);
+}
+.glebushka {
+    margin-left: 20px;
+    color: saddlebrown;
+
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.t1 {
+  width: 45%;
+}
+.t2 {
+  width: 45%;
+  margin-left: 10%;
+}
+.navigaonusing{
+  display: flex;
+  width: 100%;
+ 
+  
+  text-align: justify;
+  
+ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+.fff li {
+
+list-style: none;
+}
+.gaonutosal {
+    float: left;
+    width: 100%;
+    
+    list-style: none;
+  }
+  
+  .pesontedan {
+    position: relative;
+    
+    width: 100%;
+    color: black;
+    overflow: hidden;
+  }
+  
+  .pesontedan input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .pesontedan label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #FFE4B5;
+    line-height: 3;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #333131;
+    font-size: 28px;
+  }
+  
+  .pesontedan-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #0d7b8e;
+    transition: max-height .40s;
+    font-size: 28px;
+    color: #fffdfd;
+    text-shadow: 0 1px 0 #292727;
+  }
+  
+  .pesontedan-content {
+    background: #0f6f80;
+  }
+  .pesontedan-content p {
+    margin: 1em;
+  }
+  /* :checked */
+  .pesontedan input:checked ~ .pesontedan-content {
+    max-height: 100vh;
+  }
+  
+  /* Icon */
+  .pesontedan label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .40s;
+    -o-transition: all .40s;
+    transition: all .40s;
+  }
+  .pesontedan input[type=checkbox] + label::after {
+    content: "+";
+  }
+  .pesontedan input[type=radio] + label::after {
+    content: "\25BC";
+  }
+  .pesontedan input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+  }
+  .pesontedan input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+  }
+  .cont {
+    text-align: justify;
+
+  }
