@@ -86,38 +86,13 @@ body {
     display:flex;
     
 }
-.стр1 { 
-    padding-top: 10px;
-}
-.стр2 {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-right: 100px;
+table {
+  background-color: #48c5eb;
+  width: 80%;
+  color: #060620;
+  border-color: #060620;
 
-}
-.стр3 {
-    padding: 50px;
-}
-.стр4 {
-    text-align: left;
-    padding-left: 100px;
-    padding-top: 100px;
-}
-.стр5 {
-    color: azure;
-    padding-top: 80px;
-}
-.content {
-    padding: 10px;
-    width: 80%;
-    text-align: justify;
-    height: 100px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
-}
-.left {
-    text-align: right;
+
 }
 .sidebar {
     padding: 10px;
@@ -141,8 +116,14 @@ body {
     color: saddlebrown;
 
 }
-
-
+.content {
+  width: 80%;
+  text-align: justify;
+  height: 100%;
+  margin-left: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
 
 .gaonutosal {
     float: left;
