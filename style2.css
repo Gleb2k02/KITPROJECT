@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-family: 'Lobster', cursive;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/91/89/6157e129611d49a.jpg);
+   
+    padding: 10px 0;
+    background-size: cover;
+}
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+ }
+.container {
+    max-width: 100%;
+    min-height: 1000px;
+      
+    margin: 0 auto;
+    background:  url(https://noisefiction.u/wp-content/uploads/2020/07/rebrawl-71.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    height: 250px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #060620;
+    background-size: contain;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGXIZNOAnafVVoT1IeStO-YuYxZLNMc0RhkKZeznRiS4wneKv-AYOQdz0CoHW7_k4q0I&usqp=CAU)
+    no-repeat center center / cover;
+    color: aliceblue;
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: url(https://hotelier.pro/images/2017-07-07-TW-33.jpg)
+    no-repeat center center / cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 10px;
+    
+}
+.nav ul {
+    display: flex;
+    background-color: #FFE4B5;
+    margin: 10px, 0;  
+    list-style: none;
+}
+.nav li a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #2F4F4F;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid #4B0082;
+    text-align: center;
+    transition: background .3s ease;
+    
+}
+.nav li a:hover {
+    background: #ddb9ff;  }
+
+.content-wrapper {
+    display:flex;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.content {
+    padding: 10px;
+    width: 80%;
+    text-align: justify ;
+    height: 100px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    display:inline-flexbox;
+}
+.t-wrapper{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+}
+.photo {
+    
+    width: 70%;
+}
+
+.func {
+    width: 30%;
+    list-style: none;
+    margin-left: 80px;
+    text-align: left;
+
+}
+.func li {
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    padding: 10px;
+    padding-left: 0px;
+    width: 20%;
+    margin-left: 10px;
+    
+    
+    
+}
+.skills li {
+    padding: 10px 0px;
+    transition: transform .5s ease ;
+    cursor: pointer;
+    list-style: none;
+    
+    
+    
+}
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+
